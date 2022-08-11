@@ -2,9 +2,9 @@ package AdapterPattern;
 
 
 public interface Adapter {
-
-	public Double twiceOf(Float num);
+    
+	public Float twiceOf(Float num);
 	
-	public Double halfOf(Float num);
+	public Float halfOf(Float num);
 	
 }
