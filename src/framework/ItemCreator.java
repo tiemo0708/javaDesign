@@ -7,14 +7,14 @@ public abstract class ItemCreator {
     public Item Create(){
         
         Item item;
-        //step1
+        //step 1
         requesttmInfo();
         item = createItem();
         //step3
         createItemLog();
         
         return item;
-        system.
+   
     }
     
     //아이템 생성하기 전에 데이터베이스에서 아이템 정보 요청
