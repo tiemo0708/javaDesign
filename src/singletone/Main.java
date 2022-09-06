@@ -5,6 +5,8 @@ public class Main {
         SystemSpeaker speaker1 = SystemSpeaker.getInstance();
         SystemSpeaker speaker2 = SystemSpeaker.getInstance();
         
+        //동일한 인스턴스 사용
+        
         //5,5
         System.out.println(speaker1.getVolume());
         System.out.println(speaker2.getVolume());
