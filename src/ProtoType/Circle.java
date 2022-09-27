@@ -39,6 +39,9 @@ public void setR(int r) {
     
     public Circle copy() throws CloneNotSupportedException{
         Circle circle = (Circle)clone();
+        circle.x+=1;
+        circle.y+=1;
+        
         return circle;
     }
 }
