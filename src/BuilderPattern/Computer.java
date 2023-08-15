@@ -9,6 +9,7 @@ public class Computer {
     
     public Computer(String cpu, String ram, String storage) {
         super();
+        
         this.cpu = cpu;
         this.ram = ram;
         this.storage = storage;
