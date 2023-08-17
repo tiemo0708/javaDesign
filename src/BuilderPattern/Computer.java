@@ -32,5 +32,8 @@ public class Computer {
         this.storage = storage;
     }
 
-    
+    @Override
+    public String toString() {
+        return cpu+","+ram+","+storage;
+    }
 }
